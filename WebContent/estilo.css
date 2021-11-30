@@ -1,0 +1,59 @@
+:root {
+	--escura: #555753;
+	--clara: #babdb6;
+	--destaque: #75507b;
+}
+
+h1{
+	color: var(--destaque);
+	font-family: fantasy;
+}
+
+h3{
+	color: var(--escura);
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;		
+}
+
+.itemMenu{
+	color: var(--escura);
+	font-weight: bold;
+	font-size: small;
+	text-transform: uppercase;	
+}
+
+.itemCaminhoProduto{
+	color: var(--clara);
+	font-variant: small-caps;	
+	font-size: small;
+}
+
+main{
+	display: flex;
+	justify-content: center;	
+}
+
+#caminhoProduto{
+	width: 60%;
+	
+}
+
+.itemMain{
+	display: flex;
+	justify-content: center;
+	
+	padding: 20px;
+	width: 50%;
+}
+
