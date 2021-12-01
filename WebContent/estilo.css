@@ -1,12 +1,20 @@
 :root {
 	--escura: #555753;
 	--clara: #babdb6;
+	--media: #555753;
 	--destaque: #75507b;
+}
+
+*{
+	padding: 0px;	
+	margin: 0px;	
 }
 
 h1{
 	color: var(--destaque);
 	font-family: fantasy;
+	
+	margin: 20px;
 }
 
 h3{
@@ -27,7 +35,7 @@ ul{
 }
 
 .itemMenu{
-	color: var(--escura);
+	color: var(--media);
 	font-weight: bold;
 	font-size: small;
 	text-transform: uppercase;	
@@ -51,9 +59,17 @@ main{
 
 .itemMain{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: flex-start;	
 	
-	padding: 20px;
-	width: 50%;
+	padding: 20px;	
 }
 
+#descricaoProduto{	
+	align-items: center;
+	width: 70%;
+}
+
+img{
+	margin: 5px 20px 20px 20px;	
+}
