@@ -73,3 +73,12 @@ main{
 img{
 	margin: 5px 20px 20px 20px;	
 }
+
+#detalhes{
+	width: 80%;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active { 
+	background-color: var(--media); 
+	border-color: var(--escura); 
+}
