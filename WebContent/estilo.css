@@ -4,21 +4,15 @@
 	--media: #555753;
 	--destaque: #75507b;
 }
-
 *{
 	padding: 0px;	
 	margin: 0px;	
 }
-
 h1{
 	color: var(--destaque);
 	font-family: fantasy;
 	
 	margin: 20px;
-}
-
-h3{
-	color: var(--escura);
 }
 
 li{
@@ -116,3 +110,6 @@ img{
 	color: var(--media);
 }
 
+#add{
+	margin-top: 15px;
+}
