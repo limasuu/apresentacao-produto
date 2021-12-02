@@ -82,3 +82,37 @@ img{
 	background-color: var(--media); 
 	border-color: var(--escura); 
 }
+
+.tituloProduto{
+	margin-top: 20px;
+	
+	color: var(--escura);
+	font-family: fantasy;
+}
+
+.modeloProduto{
+	margin-top: 10px;
+	
+	color: var(--clara);
+	font-variant: small-caps;	
+	font-size: small;
+}
+
+.preco{
+	margin-top: 20px;
+	color: var(--escura);
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.precoParcela{
+	margin-top: 5px;
+	color: var(--media);
+	font-size: small;	
+}
+
+.textoCompra{
+	margin-top: 15px;
+	color: var(--media);
+}
+
