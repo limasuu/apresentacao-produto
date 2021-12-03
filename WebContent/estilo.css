@@ -72,11 +72,6 @@ img{
 	width: 80%;
 }
 
-.ui-accordion .ui-accordion-header.ui-state-active { 
-	background-color: var(--media); 
-	border-color: var(--escura); 
-}
-
 .tituloProduto{
 	margin-top: 20px;
 	
@@ -112,4 +107,11 @@ img{
 
 #add{
 	margin-top: 15px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+	border: 1px solid var(--clara);
+	background: var(--media);
+	font-weight: normal;
+	color: var(--clara);
 }
