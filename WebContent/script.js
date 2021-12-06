@@ -9,4 +9,7 @@ $(function(){
 		 return false;
 	});
 	
+	$("input[type='radio']").checkboxradio({
+		      icon: false
+	});
 });

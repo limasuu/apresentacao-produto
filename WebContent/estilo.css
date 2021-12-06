@@ -109,6 +109,11 @@ img{
 	margin-top: 15px;
 }
 
+fieldset{
+	margin-top: 15px;
+	border-width: 0px;
+}
+
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
 	border: 1px solid var(--clara);
 	background: var(--media);
