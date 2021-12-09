@@ -124,3 +124,15 @@ fieldset{
 	font-weight: normal;
 	color: var(--clara);
 }
+
+.referencia{
+	font-size: small;
+	text-align: right;
+	text-transform: uppercase;	
+	color: var(--media);
+	margin: 10px;
+}
+
+.referencia a{
+	color: var(--destaque);	
+}
